@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer></script>
+    <title>Landing Page</title>
+</head>
+<body>
+    <header class="header header_pos-relative">
+        <div class="header__socials socials">
+            <div class="socials__text">Социальные сети</div>
+            <div class="socials__straight-line"></div>
+            <ul class="socials__icons-wrapper">
+                <a href="https://github.com" target="_blank">
+                    <li class="socials__icon-gh icon"></li>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <li class="socials__icon-inst icon"></li>
+                </a>
+                <a href="https://facebook.com" target="_blank">
+                    <li class="socials__icon-fb icon"></li>
+                </a>
+            </ul>
+        </div>
+        <div class="header__container container">
+            <div class="about-me">
+                <div class="bg-circle">
+                    <p class="about-me__name">Меня зовут Джон Доу</p>
+                </div>
+                <p class="about-me__occupation">
+                    Я web-разработчик из города Нью-Йорк
+                </p>
+                <div class="about-me__btns_wrapper">
+                    <button class="btn btn_primary">Портфолио</button>
+                    <button class="btn">Про меня</button>
+                </div>
+            </div>
+        </div>
+        <button class="header__burger-menu-btn burger-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+        <nav class="header__hidden-menu hidden-menu">
+            <button class="hidden-menu__close-btn"></button>
+            <ul class="hidden-menu__navigation">
+                <li>ПРО МЕНЯ</li>
+                <li>МОЙ ОПЫТ</li>
+                <li>МОИ НАВЫКИ</li>
+                <li>МОИ РАБОТЫ</li>
+                <li>ПРАЙС-ЛИСТ</li>
+                <li>КОНТАКТЫ</li>
+            </ul>
+            <div class="hidden-menu__socials socials">
+                <ul class="socials__icons-wrapper">
+                    <a href="https://github.com" target="_blank">
+                        <li class="socials__icon-gh icon"></li>
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <li class="socials__icon-inst icon"></li>
+                    </a>
+                    <a href="https://facebook.com" target="_blank">
+                        <li class="socials__icon-fb icon"></li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+        <div class="blur-bg"></div>
+    </header>
+
+
+    <section class="experience container">
+        <div class="bg-circle-center">
+            <p class="experience__title">Опыт</p>
+        </div>
+        <div class="headline-text">
+            Чем я буду полезен
+        </div>
+
+        <div class="experience__wrapper">
+            <div class="timeline-box">
+                <h2 class="timeline-box__title">Образование</h2>
+
+                <div class="timeline-box__element timeline-element">
+                    <div class="timeline-element__heading">
+                        <div class="bg-circle">
+                            <div class="timeline-element__logo student-logo"></div>
+                        </div>
+                        <div class="timeline-element__info">
+                            <p class="timeline-element__position">
+                                МГТУ им. Н. Э. Баумана
+                            </p>
+                            <p class="timeline-element__company-and-location">
+                                Диплом магистра | Москва (2014-2020)
+                            </p>
+                        </div>
+                    </div>
+                    <p class="timeline-element__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                
+                <div class="timeline-box__element timeline-element">
+                    <div class="timeline-element__heading">
+                        <div class="bg-circle">
+                            <div class="timeline-element__logo diploma-logo"></div>
+                        </div>
+                        <div class="timeline-element__info">
+                            <p class="timeline-element__position">
+                                Udemy
+                            </p>
+                            <p class="timeline-element__company-and-location">
+                                Курсы по Web-разработке
+                            </p>
+                        </div>
+                    </div>
+                    <p class="timeline-element__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="timeline-box">
+                <h2 class="timeline-box__title">Опыт работы</h2>
+
+                <div class="timeline-box__element timeline-element">
+                    <div class="timeline-element__heading">
+                        <div class="bg-circle">
+                            <div class="timeline-element__logo desktop-logo"></div>
+                        </div>
+                        <div class="timeline-element__info">
+                            <p class="timeline-element__position">
+                                Front-End Developer
+                            </p>
+                            <p class="timeline-element__company-and-location">
+                                EPAM | Москва (2018-2019)
+                            </p>
+                        </div>
+                    </div>
+                    <p class="timeline-element__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+
+                <div class="timeline-box__element timeline-element">
+                    <div class="timeline-element__heading">
+                        <div class="bg-circle">
+                            <div class="timeline-element__logo ui-logo"></div>
+                        </div>
+                        <div class="timeline-element__info">
+                            <p class="timeline-element__position">
+                                UI/UX Designer
+                            </p>
+                            <p class="timeline-element__company-and-location">
+                                Squad Team | Мосвка (2018)
+                            </p>
+                        </div>
+                    </div>
+                    <p class="timeline-element__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact-me container">
+        <div class="contact-me__wrapper">
+            <img class="contact-me__image" src="/assets/person.jpg" alt="my-photo">
+            <main class="contact-me__main">
+                <div class="bg-circle">
+                    <p class="contact-me__title">Контакты</p>
+                </div>
+                <div class="headline-text-left">
+                    Свяжитесь со мной
+                </div>
+                <p class="bold-text-primary">Любым удобным вам способом:</p>
+                <ul class="socials__icons-wrapper">
+                    <a href="https://instagram.com" target="_blank">
+                        <li class="socials__icon-inst icon"></li>
+                    </a>
+                    <a href="https://web.telegram.org" target="_blank">
+                        <li class="socials__icon-tg icon"></li>
+                    </a>
+                    <a href="https://facebook.com" target="_blank">
+                        <li class="socials__icon-fb icon"></li>
+                    </a>
+                </ul>
+                <p class="bold-text-primary">Или оставьте ваши данные и я сам вам напишу:</p>
+
+                <form class="contact-me__form" action="#" method="post">
+                    <div class="cotact-me__name-and-email-wrapper">
+                        <div class="contact-me__custom-label contact-me__custom-label-name">
+                            <input type="text" class="contact-me__name-input" name="name" minlength="1" required>
+                        </div>
+                        <div class="contact-me__custom-label contact-me__custom-label-email">
+                            <input type="email" class="contact-me__email-input" name="email" minlength="1" required>
+                        </div>
+                    </div>
+                    <div class="contact-me__custom-label contact-me__custom-label-text">
+                        <textarea name="text" class="contact-me__text-input"></textarea>
+                    </div>
+                    <div class="contact-me__policy">
+                        <input class="contact-me__policy-chekbox" type="checkbox">
+                        <p>Я согласен(а) с <span class="cotact-me__policy-link">политикой конфиденциальности</span></p>
+                    </div>
+                    <button class="contact-me__submit-btn btn btn_primary" type="button">Отправить сообщение</button>
+                </form>
+            </main>
+        </div>
+    </section>
+</body>
+</html>
